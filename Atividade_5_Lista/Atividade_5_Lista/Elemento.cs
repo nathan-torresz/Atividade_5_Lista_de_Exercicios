@@ -6,5 +6,7 @@ namespace Atividade_5_Lista
 {
     class Elemento
     {
+        private int _id;
+        private
     }
 }

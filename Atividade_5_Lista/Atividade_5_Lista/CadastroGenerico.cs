@@ -6,5 +6,6 @@ namespace Atividade_5_Lista
 {
     class CadastroGenerico
     {
+        private List<Elemento> _elementos;
     }
 }
