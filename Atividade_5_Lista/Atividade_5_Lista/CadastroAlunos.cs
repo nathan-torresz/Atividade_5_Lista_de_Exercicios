@@ -4,11 +4,8 @@ using System.Text;
 
 namespace Atividade_5_Lista
 {
-    class Elemento
+    class CadastroAlunos: CadastroGenerico
     {
-        private int _id;
-        public int Id { get => _id; set => _id = value; }
-
 
     }
 }

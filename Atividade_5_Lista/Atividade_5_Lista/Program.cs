@@ -6,7 +6,7 @@ namespace Atividade_5_Lista
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Teste para atv 5");
+           
         }
     }
 }
