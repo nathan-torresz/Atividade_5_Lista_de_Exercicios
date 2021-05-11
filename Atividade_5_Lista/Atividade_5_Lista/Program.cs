@@ -6,7 +6,8 @@ namespace Atividade_5_Lista
     {
         static void Main(string[] args)
         {
-           
+            Aluno a1 = new Aluno("Nathan", "TI", 001);
+            
         }
     }
 }

@@ -4,8 +4,11 @@ using System.Text;
 
 namespace Atividade_5_Lista
 {
-    class CadastroAlunos: CadastroGenerico
+    class CadastroAluno: CadastroGenerico
     {
+        public CadastroAluno():base()
+        {
 
+        }
     }
 }
