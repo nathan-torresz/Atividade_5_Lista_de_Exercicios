@@ -15,6 +15,7 @@ namespace Atividade_5_Lista
         }
         public void Incluir(Elemento e)
         {
+            if(Elementos.IndexOf(e) == -1)
             Elementos.Add(e);
         }
         public void Excluir(int id)
@@ -29,13 +30,9 @@ namespace Atividade_5_Lista
             id = int.Parse(Console.ReadLine());
             foreach(Elemento e in Elementos)
             {
-                if (e.Id.Equals(id))
-                {
-                    string nome;
-                    nome = ((Aluno)e).Nome;
-                    return 
-                }
+                if (((Aluno)e).Id.Equals(id)) return e;
             }
+            return null;
         }
     }
 }
