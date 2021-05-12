@@ -33,8 +33,6 @@ namespace Atividade_5_Lista
         }
         public static Elemento Busca(int id)
         {
-            Console.WriteLine("Digite o id do aluno que procura: ");
-            id = int.Parse(Console.ReadLine());
             foreach(Elemento e in Elementos)
             {
                 if (((Aluno)e).Id.Equals(id))

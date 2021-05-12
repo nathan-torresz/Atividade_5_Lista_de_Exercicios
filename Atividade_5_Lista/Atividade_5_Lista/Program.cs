@@ -21,6 +21,7 @@ namespace Atividade_5_Lista
             ListarAlunos();
             CadastroGenerico.Excluir(053);
             ListarAlunos();
+            CadastroGenerico.Busca(001);
 
             Console.ReadKey();
         }
@@ -32,6 +33,7 @@ namespace Atividade_5_Lista
             {
                 Console.WriteLine($"ID: {a.Id} Nome: {a.Nome} Curso: {a.Curso} Data Nasc.:{a.DataNasc.Day}/{a.DataNasc.Month}/{a.DataNasc.Year}");
             }
+            Console.WriteLine();
         }
     }
 }
