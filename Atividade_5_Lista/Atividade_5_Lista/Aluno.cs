@@ -14,11 +14,13 @@ namespace Atividade_5_Lista
         public string Curso { get => _curso; private set => _curso = value; }
         public DateTime DataNasc { get => _dataNasc; set => _dataNasc = value; }
 
-        public Aluno(string nome, string curso, int id, DateTime data):base(id)
+        public Aluno(string nome, string curso,int id, DateTime data)
+            :base()
         {
             Nome = nome;
             Curso = curso;
             DataNasc = data;
+            Id = id;
         }
     }
 }

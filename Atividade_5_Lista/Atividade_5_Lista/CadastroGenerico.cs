@@ -20,11 +20,16 @@ namespace Atividade_5_Lista
         }
         public static void Excluir(int id)
         {
-            List<Elemento> alunos = new List<Elemento>();
-            if (Elementos.IndexOf(alunos))
+            for (int i = 0; i < Elementos.Count; i++)
             {
-
+                Elemento e = Elementos[i];
+                if (((Aluno)e).Id == id)
+                {
+                    Elementos.Remove(e);
+                }
             }
+           
+           
         }
         public static Elemento Busca(int id)
         {
@@ -47,6 +52,11 @@ namespace Atividade_5_Lista
         public static List<Elemento> BuscarTodos()
         {
             return Elementos;
+        }
+
+        public static void QtdAcessosAlunos()
+        {
+            Console.WriteLine($"Númeor de Acessos: {AcessosAlunos}");
         }
     }
 }

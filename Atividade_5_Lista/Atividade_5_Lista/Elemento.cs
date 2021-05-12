@@ -8,11 +8,5 @@ namespace Atividade_5_Lista
     {
         private int _id;
         public int Id { get => _id; set => _id = value; }
-
-        public Elemento(int id)
-        {
-            Id = id;
-        }
-
     }
 }
